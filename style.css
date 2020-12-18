@@ -1,0 +1,127 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 600;
+    line-height: 2em;
+    
+}
+
+/*   NAVBAR   */
+.navbar-dark{
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(19, 19, 19) , rgb(58, 58, 58));
+    line-height: 1.5em;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    margin:0 5rem;
+    color: goldenrod;
+
+}
+
+/*   PARALLAX  */
+
+.parallax{
+    position: relative;
+    opacity: 0.7;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.p1{
+    background-image:url('ibmlogo.png');
+    background-position:center;
+    min-height: 100%;
+    opacity: 1;
+    
+}
+
+.p2{
+    background-image:url('https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg');
+    min-height: 400px;
+}
+
+.p3{
+    background-image:url('https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg') ;
+    min-height: 400px;
+}
+ 
+.p4{
+    background-image:url('https://p0.piqsels.com/preview/536/351/703/access-app-application-archive-thumbnail.jpg') ;
+    min-height: 400px;
+}
+
+
+
+.section{
+    text-align: center;
+    padding: 2em 0;
+    background-image: linear-gradient(to right, rgb(19, 19, 19) , rgb(58, 58, 58));
+    color: #ddd;
+    font-size: 1.5em;
+}
+
+
+   .parallaxtext{
+       position: absolute;
+       top: 50%;
+       width: 100%;
+       text-align: center;
+       color: #000;
+       font-size: 27px;
+       letter-spacing: 8px;
+       text-transform: uppercase;
+   }
+
+   .parallaxtext .border{
+       background-color: rgb(0, 0, 0);
+       color: rgb(255, 255, 255);
+       padding: 20px;
+
+   }
+
+
+   @media(max-width:568px){
+       .parallax1,.parallax2,.parallax3,.parallax4{
+           background-attachment: scroll;
+       }
+   }
+
+   /*   ICONS   */
+
+    i{
+        font-size: 1.5em;
+        margin: 0 0.25em 0 0 ;
+    }
+    span > .html{color: orange ;}
+	span > .css{ color: red}
+	span > .js{color: yellow}
+	span > .boot{color:indigo;}
+	span > .github{color:black}
+    
+    span > .design{
+        color:red;
+        font-size: 2.5em;
+        margin:0 0 1em 0;
+    }
+
+	span > .develop{
+        color:#ffae00;
+        font-size: 2.5em;
+        margin:0 0 1em 0;  
+    }
+
+	span > .deploy{
+        color:green;
+        font-size: 2.5em;
+        margin:0 0 1em 0;
+    }
+
+	a > i {color:white}
+	a i.fa-linkedin-in:hover{ color:blue}
+	a  i.fa-twitter:hover{ color:rgb(90, 213, 250)}
+	a  i.fa-github:hover{ color:gold}
