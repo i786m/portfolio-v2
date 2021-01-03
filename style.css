@@ -29,7 +29,7 @@ span.navbar-toggler{
 
 .parallax{
     position: relative;
-    opacity: 0.7;
+    opacity: 1;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
@@ -58,12 +58,17 @@ span.navbar-toggler{
     background-image:url('https://p0.piqsels.com/preview/536/351/703/access-app-application-archive-thumbnail.jpg') ;
     min-height: 400px;
 }
-
+ 
+.p5{
+    background-image:url('https://p0.piqsels.com/preview/944/356/969/concept-construction-page-site.jpg') ;
+    min-height: 400px;
+    opacity: 1;
+}
 
 
 .section{
     text-align: center;
-    padding: 2em 0;
+    padding: 5em;
     background-image: linear-gradient(to right, rgb(19, 19, 19) , rgb(58, 58, 58));
     color: #ddd;
     font-size: 1.5em;
